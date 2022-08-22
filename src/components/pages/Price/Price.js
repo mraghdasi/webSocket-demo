@@ -23,7 +23,7 @@ const Price = () => {
 
   return (
     <>
-      <h1>قیمت لحظه‌ای ارزها</h1>
+      <h1 className='my-10'>قیمت لحظه‌ای ارزها</h1>
 
       <ScContainer>
         <span>bitcoin</span>

@@ -41,6 +41,10 @@ const SideBar = () => {
         </ScLi>
 
         <ScLi>
+          <ScLink to={routes.orderHistory}>تاریخچه سفارشات</ScLink>
+        </ScLi>
+
+        <ScLi>
           <ScLink to={routes.userList}>لیست کاربران</ScLink>
         </ScLi>
 

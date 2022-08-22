@@ -3,4 +3,5 @@ export const routes = {
   userList: '/users',
   productList: '/products',
   priceList: '/prices',
+  orderHistory: '/orderHistory',
 };

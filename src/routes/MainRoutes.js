@@ -25,6 +25,7 @@ const Home = lazy(() => import('components/pages/Home/Home'));
 const Users = lazy(() => import('components/pages/Users/Users'));
 const Products = lazy(() => import('components/pages/Product/Products'));
 const Price = lazy(() => import('components/pages/Price/Price'));
+const OrderHistory = lazy(() => import('components/pages/OrderHistory/OrderHistory'));
 
 const MainRoutes = () => {
   const routesList = [
@@ -43,6 +44,10 @@ const MainRoutes = () => {
     {
       path: routes.priceList,
       element: <Price />,
+    },
+    {
+      path: routes.orderHistory,
+      element: <OrderHistory />,
     },
   ];
 
